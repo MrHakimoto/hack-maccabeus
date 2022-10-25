@@ -38,3 +38,5 @@ while True:
         elif ff == "N":
             break
 print("Foi um prazer fazer negocios com você!")
+
+print("COisa horrorosa, meu!")
