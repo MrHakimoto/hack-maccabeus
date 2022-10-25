@@ -40,3 +40,10 @@ while True:
 print("Foi um prazer fazer negocios com você!")
 
 print("COisa horrorosa, meu!")
+
+"""
+OLDEST MAN OF THE WORLD
+"""
+
+for i in range(30):
+    print("funfou")
