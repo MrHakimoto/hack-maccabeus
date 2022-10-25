@@ -9,3 +9,5 @@ WHERE(composer is not null)
 GROUP BY composer
 HAVING sizING <=128 and timING between 60 and 90
 ORDER BY "Num Musicas"
+
+.read atv.sql
