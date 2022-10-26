@@ -23,4 +23,39 @@ for($n = 1;$n <= 30; $n++){
   print "<br>";
 }
 
+
+
+$num = 0;
+$total = 0;
+for($l=1;$l<=5;$l++){
+
+  for($c=1; $c<=5;$c++){
+    $num++;
+    $total = $total + $num;
+    $vetor[$l][$c] = $num;
+    print $vetor[$l][$c]." ";
+  }
+
+  
+  for($c=1; $c<=5;$c++){
+    $num++;
+    $total = $total + $num;
+    $vetor[$l][$c] = $num;
+    print $vetor[$l][$c]." ";
+
+    for($c=1; $c<=5;$c++){
+      $num++;
+      $total = $total + $num;
+      $vetor[$l][$c] = $num;
+      print $vetor[$l][$c]." ";
+    }
+
+  }
+  print "<br>";
+}
+  print "<br>";
+  print "Resultado da soma => $total";
+
+
+
 ?>
