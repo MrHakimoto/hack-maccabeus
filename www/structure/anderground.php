@@ -15,7 +15,17 @@
 valores e imprima os valores onde o índice for impar.</h3>
     <br>
 
-
+    <?php
+    
+      for($v = 0,$n = 0;$v <= 10;$v++){
+        $n++;
+        if($v % 2 != 0){
+          $numeros[$v] = "$n";
+          print "Posição = $v | Valor = $numeros[$v]<br>";
+        }
+      }
+    
+    ?>
 
     <hr> <br>
 
