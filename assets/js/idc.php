@@ -23,10 +23,29 @@ for($n = 1;$n <= 7;$n++){
       for($n = 1;$n <= 7;$n++){
         $vC[$n] = $vA[$n] ." - ". $vB[$n];
         print $vC[$n]." <br>";
+
+        for($v = 0,$n = 0;$v <= 10;$v++){
+            $n++;
+            if($v % 2 != 0){
+              $numeros[$v] = "$n";
+              print "Posição = $v | Valor = $numeros[$v]<br>";
+            }
+          }
+
       }
       
       echo "avestruz";
 
+
+      for($v = 0,$n = 0;$v <= 10;$v++){
+        $n++;
+        if($v % 2 != 0){
+          $numeros[$v] = "$n";
+          print "Posição = $v | Valor = $numeros[$v]<br>";
+        }
+      }
+
+      
       ?>
 
 
