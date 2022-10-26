@@ -11,6 +11,15 @@ for($l=1;$l<=5;$l++){
     }
     print "<br>";
 }
+
+$dados_usuario = array(
+    "Nome" => "$nome",
+    "Email" => "$email",
+    "Senha" => "$senha",
+    "Idade" => "$idade",
+    "Altura" => "$altura"
+  );
+
     print "<br>";
   print "Resultado da soma => $total";
 
