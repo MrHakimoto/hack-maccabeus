@@ -23,4 +23,19 @@ notas = [p['nota'] for p in pessoas]
 
 Other parts in project, after this message.!
 
-""
+"""
+
+
+media = sum(notas)/len(notas)
+print(f'Media: {media}')
+
+for p in pessoas:
+  if p['nota'] > media:
+    print(f'{p["nome"]} : {p["nota"]}')
+
+
+
+print("FINale opus")
+
+while (True):
+    print("vhs")
