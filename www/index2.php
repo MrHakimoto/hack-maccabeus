@@ -16,3 +16,14 @@
 <p>A Psyonix anunciou o início da 6ª temporada de Rocket League para esta quarta-feira (09). Segundo a desenvolvedora, a season acrescentará uma pista inédita, novidades no modo competitivo, veículos e recompensas da quinta temporada também serão distribuídas.</p>
 <span class="postado-por">Postado por Thúlio Alexandre</span>
 </div>
+<?php 
+
+$fabrica = 50000;
+  $distrib = 28;
+  $impostos = 45;
+
+  $final = ($fabrica * $distrib) / 100 + ($fabrica * $impostos) / 100 + $fabrica;
+
+  print "O preço de fábrica do carro é $fabrica, já o preço final do carro é $final";
+
+  ?>
